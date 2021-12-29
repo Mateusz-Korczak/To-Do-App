@@ -1,0 +1,26 @@
+.columnForm {
+  padding: 10px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.columnForm > * {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .columnForm > * {
+    width: 100%;
+    margin: 0 0 12px 0;
+  }
+}
+/*# sourceMappingURL=ColumnForm.module.css.map */

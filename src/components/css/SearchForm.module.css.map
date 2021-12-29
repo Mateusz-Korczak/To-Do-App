@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CACxB;;AAED,AAAA,MAAM,CAAC;EACL,SAAS,EAAE,KAAK;EAChB,UAAU,ECTE,IAAI;EDUhB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAyB;EAC3C,OAAO,ECHG,IAAI,CDGM,IAAkB;EACtC,MAAM,EAAE,CAAC,CAAC,CAAC,CCJD,IAAI,CDIS,CAAC;EACxB,WAAW,ECRD,SAAS,EAAE,UAAU;EDS/B,aAAa,ECPN,GAAG;CDQX",
+    "sources": [
+        "../SearchForm/SearchForm.module.scss",
+        "../../styles/settings.scss"
+    ],
+    "names": [],
+    "file": "SearchForm.module.css"
+}
