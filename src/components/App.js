@@ -1,17 +1,22 @@
-import Hero from './Hero/Hero';
-import SearchForm from './SearchForm/SearchForm';
-import List from './List/List';
 import Container from './Container/Container';
 import NavBar from './NavBar/NavBar';
+import Home from './Home/Home';
+import About from './About/About';
+import Favorite from './Favorite/Favorite';
+import { Routes, Route } from 'react-router-dom';
+import NotFound from './NotFound/NotFound';
 
 const App = () => {
   return (
     <main>
       <NavBar />
       <Container>
-        <Hero />
-        <SearchForm />
-        <List />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/favorite' element={<Favorite />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
       </Container>
     </main>
   );

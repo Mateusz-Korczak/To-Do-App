@@ -5,18 +5,18 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <a href='#/' class='fa fa-tasks tasks_icon'></a>
+          <a href='/' className='fa fa-tasks tasks_icon'></a>
         </li>
       </ul>
       <ul>
         <li>
-          <a href='#/'>Home</a>
+          <a href='/'>Home</a>
         </li>
         <li>
-          <a href='#/'>Favorite</a>
+          <a href='/favorite'>Favorite</a>
         </li>
         <li>
-          <a href='#/'>About</a>
+          <a href='/about'>About</a>
         </li>
       </ul>
     </nav>

@@ -3,7 +3,7 @@ import styles from './About.module.scss';
 
 const About = () => {
   return (
-    <div className='container'>
+    <div>
       <PageTitle>About</PageTitle>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, corrupti!
