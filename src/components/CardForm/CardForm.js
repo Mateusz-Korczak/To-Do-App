@@ -16,10 +16,10 @@ const CardForm = (props) => {
 
   return (
     <form onSubmit={handleSubmit} className={styles.columnForm}>
-      <label>action</label>
+      <label>task</label>
       <TextInput value={action} onChange={(e) => setAction(e.target.value)} />
       <Button>
-        <span>Add Column</span>
+        <span>Add Task</span>
       </Button>
     </form>
   );
