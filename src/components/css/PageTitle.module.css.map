@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../PageTitle/PageTitle.module.scss"
+    ],
+    "names": [],
+    "file": "PageTitle.module.css"
+}

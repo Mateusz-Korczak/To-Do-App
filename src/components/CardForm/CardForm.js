@@ -10,7 +10,9 @@ const CardForm = (props) => {
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addCard({ title: action, columnId: props.columnId }));
+    dispatch(
+      addCard({ title: action, columnId: props.columnId, isFavorite: false })
+    );
     setAction('');
   };
 

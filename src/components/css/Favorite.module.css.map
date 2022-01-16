@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../Favorite/Favorite.module.scss"
+    ],
+    "names": [],
+    "file": "Favorite.module.css"
+}
